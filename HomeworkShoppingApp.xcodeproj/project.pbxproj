@@ -12,6 +12,7 @@
 		E5969B5821295DC2009D8EE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5969B5621295DC2009D8EE3 /* Main.storyboard */; };
 		E5969B5A21295DC4009D8EE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5969B5921295DC4009D8EE3 /* Assets.xcassets */; };
 		E5969B5D21295DC4009D8EE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5969B5B21295DC4009D8EE3 /* LaunchScreen.storyboard */; };
+		E5969B6521296405009D8EE3 /* ShoppingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5969B6421296404009D8EE3 /* ShoppingTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		E5969B5921295DC4009D8EE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E5969B5C21295DC4009D8EE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E5969B5E21295DC4009D8EE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5969B6421296404009D8EE3 /* ShoppingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				E5969B5221295DC2009D8EE3 /* AppDelegate.swift */,
 				E5969B5421295DC2009D8EE3 /* ViewController.swift */,
+				E5969B6421296404009D8EE3 /* ShoppingTableViewController.swift */,
 				E5969B5621295DC2009D8EE3 /* Main.storyboard */,
 				E5969B5921295DC4009D8EE3 /* Assets.xcassets */,
 				E5969B5B21295DC4009D8EE3 /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E5969B5521295DC2009D8EE3 /* ViewController.swift in Sources */,
+				E5969B6521296405009D8EE3 /* ShoppingTableViewController.swift in Sources */,
 				E5969B5321295DC2009D8EE3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,6 +289,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CXXUZZXAFX;
 				INFOPLIST_FILE = HomeworkShoppingApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +308,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CXXUZZXAFX;
 				INFOPLIST_FILE = HomeworkShoppingApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
